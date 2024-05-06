@@ -46,7 +46,7 @@ export const BtnContainer=styled.TouchableOpacity`
 `
 
 export const BtnText=styled.Text`
-    font-size: 32px;
+    font-size: 28px;
     font-weight: bold;
     text-transform: uppercase;
     
@@ -82,5 +82,5 @@ export const Mark=styled.Text`
 export const JogadorDoMomento=styled.Text`
     font-size: 60px;
     font-weight:bold;
+    text-transform: uppercase;
 `
-/*---------------- */

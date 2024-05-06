@@ -1,5 +1,5 @@
 import React from "react";
-import { View, Text, Image } from "react-native";
+import { View, Text, Image, StatusBar } from "react-native";
 
 
 // Styled Components
@@ -19,7 +19,9 @@ export default function Home(){
         nav.navigate('TelaJogo')
     }
     return(
+        
         <Container>
+                  <StatusBar barStyle='light-content' translucent={true} backgroundColor={'#2d2d2d'}/>
             <Img
                 source={require('../../assets/img/logo.png')}
             />

@@ -1,6 +1,6 @@
 {
   "expo": {
-    "name": "my-app",
+    "name": "TicTacToe",
     "slug": "my-app",
     "version": "1.0.0",
     "orientation": "portrait",
@@ -19,12 +19,18 @@
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#ffffff"
-      }
+        "foregroundImage": "./src/assets/img/logo.png",
+        "backgroundColor": "#000"
+      },
+      "package": "com.rafaelsantos1234.myapp"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "7959e1ba-8e01-46cc-abd1-503c52d1de7e"
+      }
     }
   }
 }
